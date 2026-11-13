@@ -1,10 +1,19 @@
-prog-for-cyber-cw1
-Amir Afzal - New College Lanarkshire (Motherwell) - B01888688
-#Overview This repository contains my coursework 1 porifolio. It holds 5 python programs which applies security ideas such as authentication, password checks, input validation etc. The main branch is the overview. Each of these python programs has its own branch with the code, a readme file and screenshots of the test runs.
-#Programs 1: Security tool: A program which is like a menu and the user must log in first. It includes a security event counter, brute force simulation, login authentication and the ability to exit the program. 2: Security Event logger: This program records security activities so they can be reviewed, it records their event ID, username, IP address, result and the timestamp to check for suspicious activity 3:: IP Address Validator: This program checks if the IP address entered by the user has a valid format and displays whether its valid 4: Security Incident Manager: This program stores and updates certain details of a security incident such as username, IP address, event type, risk level and displays the information 5: Reusable Cyber security utilities using user defined modules: A reusable program of security functions such as validating passwords and IP addresses and generating strong random passwords
-Git branches
-Security tool | 'security-tool' |
-Security Event logger | 'security-event-logger' |
-IP Address Validator | 'ip-address-validator' |
-Security Incident Manager | 'security-incident-manager' |
-Cyber Security Utilities | 'cyber-security-utilities' |
+# Security Tool
+
+# Student Details
+Amir Afzal
+New college Lanarkshire (Motherwell)
+B01888688
+
+# What the Program Does
+This program is a basic security tool. The user must log in first. After logging in, they are shown a security menu with these options:
+1. Security Event Counter – asks for a password 10 times, counts correct and incorrect attempts, shows the percentage of incorrect attempts and raises an alert if it is more than 50%.
+2. Brute-Force Simulation – lets the user guess a password until it is correct or the maximum number of attempts is reached.
+3. Login Authentication – asks for a username and password and allows three failed logins before displaying that the account is frozen for 24 hours.
+4. Exit – displays "Thank you for using the security tool" and ends the program.
+
+The program keeps running until the user chooses Exit.
+
+# How to Run
+1. Open a terminal in this folder.
+2. Run:
